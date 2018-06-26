@@ -20,19 +20,3 @@ simply.text({
   body: 'This is a demo. Press buttons or tap the watch!',
 }, true);
 
-simply.text({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
-}, true);
-simply.text({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
-}, true);
-simply.text({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
-}, true);
-simply.text({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
-}, true);
