@@ -7,7 +7,6 @@ simply.on('singleClick', function(e) {
 
 simply.on('longClick', function(e) {
   console.log(util2.format('long clicked $button!', e));
-  simply.vibe();
   simply.scrollable(e.button !== 'select');
 });
 
@@ -21,3 +20,7 @@ simply.text({
   body: 'This is a demo. Press buttons or tap the watch!',
 }, true);
 
+var controller = require('lib/controller'),
+    config = require('config');
+    
+controller.doSomething(config.setting);
