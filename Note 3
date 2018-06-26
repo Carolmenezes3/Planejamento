@@ -1,4 +1,3 @@
-
 console.log('Simply.js demo!');
 
 simply.on('singleClick', function(e) {
@@ -8,7 +7,6 @@ simply.on('singleClick', function(e) {
 
 simply.on('longClick', function(e) {
   console.log(util2.format('long clicked $button!', e));
-  simply.vibe();
   simply.scrollable(e.button !== 'select');
 });
 
@@ -18,7 +16,8 @@ simply.on('accelTap', function(e) {
 });
 
 simply.text({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
+  title: 'Vaaaai22!',
+  body: 'Carol Menezes22 - por favor ',
 }, true);
+
 
