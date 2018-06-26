@@ -1,11 +1,23 @@
 console.log('Simply.js demo!');
 
+simply.on('singleClick', function(e) {
+  console.log(util2.format('single clicked $button!', e));
+  simply.subtitle('Pressed ' + e.button + '!');
+});
+
 simply.on('longClick', function(e) {
   console.log(util2.format('long clicked $button!', e));
+  simply.vibe();
   simply.scrollable(e.button !== 'select');
 });
 
+simply.on('accelTap', function(e) {
+  console.log(util2.format('tapped accel axis $axis $direction!', e));
+  simply.subtitle('Tapped ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
+});
+
 simply.text({
-  title: 'Planejamento',
-  body: 'Opção 1 - 1198 kcal 150 g de Acém cozido ( 1 Hambúrguer) 200 g de Creme de Leite ( 1 caixa) 50 g de Chocolate 70% ( 3 fileiras) 30 g de Cacau em pó ( 3 colheres) 80 g de Ovo cru ( 2 ovos) Opção 2 - 1272 kcal 600 g de Acém cozido (4 Hambúrguer) Opção 3 - 1020 kcal 300 g de Acém cozido (2 Hambúrguer) 160 g de ovo frito (4 ovos) Opção 3 - 636 kcal 300 g de Acém cozido (2 Hambúrguer) Opção 4 - 576 kcal 240 g de Ovo frito (6 Ovos) Opção 5 - 880 kcal 200 g de Creme de Leite ( 1 caixa) 50 g de Chocolate 70% ( 3 fileiras) 30 g de Cacau em pó ( 3 colheres) 80 g de Ovo cru ( 2 ovos) Opção 6 - 954 kcal 450 g de Acém cozido (3 Hambúrguer) Inicio do jejum às  15:00h dia 0 Duração 12h -  Final 03:00h dia 1 (todos os dias) Duração 13h - Final 04:00h dia 1 (todos os dias) Duração 14h - Final 05:00h dia 1 (todos os dias) Duração 15h - Final 06:00h dia 1 (todos os dias) Duração 16h - Final 07:00h dia 1 (todos os dias) Duração  17h - Final 08:00h dia 1 (todos os dias) Duração 18h - Final 09:00h dia 1 (todos os dias) Duração 19h - Final 10:00h dia 1 (todos os dias) Duração 20h - Final 11:00h dia 1 (todos os dias) Duração 21h - Final 12:00h dia 1 (todos os dias) Duração 22h -  Final 13:00h dia 1 (todos os dias) Duração 23h - Final 14:00h dia 1 (todos os dias) Duração 24h (1d) - Final 15:00h dia 1 (todos os dias) Duração 28h - Final 19:00h  dia 1 (3 vezes por semana) Duração 36h - Final 03:00h  dia 2 (3 vezes por semana) Duração 42h - Final 09:00h  dia 2 (3 vezes por semana) Duração 48h (2d) - Final 15:00h  dia 3 (3 vezes por semana) Duração 72h (3d) - Final 15:00h  dia 4 (1 vez por mês) Duração 96h (4d) - Final 15:00h  dia 5 (1 vez por mês) Duração 120h  (5d) - Final 15:00h  dia 6  (1 vez por mês) Duração 168h  (7d) - Final 15:00h  dia 8  (1 a cada 6 semanas) Duração 336h  (14d) - Final 15:00h  dia 15  (1 a cada 6 semanas)',
+  title: 'Simply Demo!',
+  body: 'This is a demo. Press buttons or tap the watch!',
 }, true);
+
