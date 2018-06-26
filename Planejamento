@@ -16,21 +16,8 @@ simply.on('accelTap', function(e) {
   simply.subtitle('Tapped ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
 });
 
-simply.text = function(textDef, clear) {
-  return simply.impl.text.apply(this, arguments);
-};
-simply.setText = simply.text;
-simply.title = function(text, clear) {
-  return simply.impl.textfield('title', text, clear);
-};
-simply.subtitle = function(text, clear) {
-  return simply.impl.textfield('subtitle', text, clear);
-};
-simply.body = function(text, clear) {
-  return simply.impl.textfield('body', text, clear);
-};
+simply.text({
+  title: 'Simply Demo!',
+  body: 'This is a demo. Press buttons or tap the watch!',
 }, true);
-simply.fullscreen = function(fullscreen) {
-  return simply.impl.fullscreen.apply(this, arguments);
-};
-   
+
