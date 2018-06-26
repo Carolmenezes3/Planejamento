@@ -20,7 +20,8 @@ simply.text({
   body: 'This is a demo. Press buttons or tap the watch!',
 }, true);
 
-var controller = require('lib/controller'),
-    config = require('config');
-    
-controller.doSomething(config.setting);
+var config = {
+  setting: 'Setting'
+};
+
+module.exports = config;
