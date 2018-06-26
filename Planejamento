@@ -16,10 +16,23 @@ simply.on('accelTap', function(e) {
   simply.subtitle('Tapped ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
 });
 
-simply.text({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
+simply.text = function(textDef, clear) {
+  return simply.impl.text.apply(this, arguments);
+};
+simply.setText = simply.text;
+simply.title = function(text, clear) {
+  return simply.impl.textfield('title', text, clear);
+};
+simply.subtitle = function(text, clear) {
+  return simply.impl.textfield('subtitle', text, clear);
+};
+simply.body = function(text, clear) {
+  return simply.impl.textfield('body', text, clear);
+};
 }, true);
+simply.fullscreen = function(fullscreen) {
+  return simply.impl.fullscreen.apply(this, arguments);
+};
 
 var config = {
   setting: 'Setting'
@@ -28,12 +41,4 @@ var config = {
 module.exports = config;
 var controller = require('lib/controller'),
     config = require('config');
-    
-controller.doSomething(config.setting);
-var controller = {};
-
-controller.doSomething = function(x) {
-  simply.subtitle(x);
-};
-
-module.exports = controller;
+   
