@@ -33,12 +33,4 @@ simply.body = function(text, clear) {
 simply.fullscreen = function(fullscreen) {
   return simply.impl.fullscreen.apply(this, arguments);
 };
-
-var config = {
-  setting: 'Setting'
-};
-
-module.exports = config;
-var controller = require('lib/controller'),
-    config = require('config');
    
