@@ -1,0 +1,9 @@
+alcano —  CnH2n+2 
+cicloalcano ou alceno — CnH2n
+alcino  — CnH2n-2
+1. Para converter a fórmula de um hidrocarboneto saturado de cadeia aberta em uma fórmula que contenha elementos do Grupo V (N, P, As, Sb, Bi), deve-se adicionar 1 átomo de hidrogênio à fór- mula molecular para cada elemento do Grupo V presente. Nos exemplos a seguir, todas as fórmulas estão corretas para um composto acíclico e saturado de dois carbonos: 
+2. Para converter a fórmula de um hidrocarboneto saturado de cadeia aberta em uma fórmula que contenha elementos do Grupo VI (O, S, Se, Te), não é necessário fazer nenhuma alteração no nú- mero de hidrogênios. Nos exemplos a seguir, todas as fórmulas estão corretas para um composto acíclico e saturado de dois carbonos: 
+Para converter a fórmula de um hidrocarboneto saturado de cadeia aberta cm uma fórmula que contenha elementos do Grupo VII (F, Cl. Br, I), deve-se subtrair 1 hidrogênio da fórmula molecular para cada elemento do Grupo VII presente. Nos exemplos a seguir, todas as fórmulas estão corretas para um composto acíciico e saturado de dois carbonos: 
+Para determinar o indice de deficiência de hidrogênio de um composto, adote os seguintes proce­ dimentos: 
+1. Determine a fórmula do hidrocarboneto acíciico e saturado contendo o mesmo número de átomos de carbono da substância desconhecida. 
+2. Corrija essa fórmula para os heteroátomos presentes na substância desconhecida. Adicione um átomo de hidrogênio a cada elemento do Grupo V presente e subtraia um átomo de hidrogênio de cada elemento do Grupo VII presente. 
