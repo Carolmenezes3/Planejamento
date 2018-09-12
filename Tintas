@@ -1,0 +1,8 @@
+// no máximo 1650 caracteres// 
+console.log('Simply.js demo!');
+simply.scrollable(true);
+simply.fullscreen(true);
+simply.style('small');
+simply.body('SLIDE 1
+	Coloides, soluções coloidais ou sistema coloidal são misturas que apresentam aspecto de solução, ou seja, de uma mistura homogênea. Mas, na verdade, eles são misturas heterogêneas. Isso porque embora não seja nítida a olho nu, a diferença das misturas coloidais pode ser observada mediante o uso de instrumentos, tais como o microscópio. Ex: Água e Leite Sistemas coloidais 
+1 - Dispersões coloidais – Termodinamicamente instáveis, por causa da elevada energia livre de superfície (irreversíveis). 2 – Soluções verdadeiras – substâncias macromoleculares (naturais ou sintéticas) – termodinamicamente estáveis, reversíveis. 3 – Coloides de associação – eletrólitos coloidais – termodinamicamente estáveis – substâncias tensoativas (micelas). SOLUÇÕES VERDADEIRAS Natureza das partículas – Átomos e íons. Tamanho médio das partículas – Entre 0 e 1 nanômetro. Visibilidade das partículas – As partículas não podem ser vistas nem com auxílio de um ultra-microscópio. Sob centrifugação – As partículas não se depositam nem sob uma ultra-centrífuga. Filtração – As partículas não são retidas por nenhum tipo de filtro. Sob o efeito de um campo elétrico – Caso a solução seja não-iônica (solução molecular), não há passagem de corrente elétrica. Quando é iônica, os cátions se dirigem para o pólo negativo, enquanto que os ânions se dirigem para po pólo positivo. (ocorrendo o fenômeno da eletrólise). SUSPENSÕES COLOIDAIS Natureza das partículas – Grandes aglomerados de átomos,  íons ou moléculas. ');
